@@ -1,0 +1,145 @@
+body{
+    background-color: #ece8d9;
+}
+.mid img{
+    width: 270px;
+}
+.top{
+    padding: 13% 20% 20%;
+}
+
+.leftCloude{
+    position: relative;
+    left: 75%;
+}
+
+.rightCloude{
+    position: relative;
+    top: 80%;
+}
+
+.top-heading{
+    padding: 2.5rem;
+    text-align: center;
+}
+.top-heading h1{
+    color: #C58940;
+    font-family: "Sevillana",serif;
+    font-size: 5.5rem;
+}
+
+a{
+    color: #cf7b15;
+    margin: 0 20px;
+}
+
+a:hover{
+    color: #ff8c00;;
+}
+
+span{
+    margin: 0 20px;
+}
+.mid{
+    text-align: center;
+    margin: 0 15%;
+}
+
+
+
+.sport{
+    margin-bottom: 70px;
+    border-top: solid 1px;
+    color: #C58940;
+    padding-top: 50px;
+}
+
+.sportHead{
+    position: sticky;
+    top: 0px;
+    background-color: #ece8d9;
+}
+
+.sportHead h1{
+    font-family: "Sevillana",serif;
+    font-size: 4.5rem;
+    color: #C58940;
+}
+
+.hrBtwGoats{
+    border-style: dotted;
+    width: 17%;
+    border-width: 17px;
+    border-bottom: 0px;
+    margin-bottom: 75px;
+    color: #C58940;
+}
+/* ronaldo class */
+
+.leftGoat{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.leftGoatBio{
+    width: 55%;
+    max-height: 500px;
+    margin-left: 20px;
+    overflow-y: scroll ;
+}
+
+.leftGoatBio h2{
+    color: #cf7b15;
+}
+.leftGoatBio p{
+    color: #cf7b15;
+    line-height: 1.5;
+}
+
+/* Messi class */
+
+.rightGoat{
+    display:flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px;
+    color: #C58940;
+    padding-bottom: 75px;
+    margin-bottom: 120px;
+}
+
+.rightGoatBio{
+    width: 55%;
+    margin-right: 20px;
+    max-height: 500px;
+    overflow-y: scroll ;
+}
+
+.rightGoat h2{
+    color: #cf7b15;
+}
+
+.rightGoat p{
+    color: #cf7b15;
+    line-height: 1.5;
+}
+
+.end{
+    position: relative;
+    bottom: 90px;
+    border-bottom: solid 1px;
+    color: #C58940;
+    padding-bottom: 50px;
+}
+
+.end h2{
+    font-family: "Sevillana",serif;
+    font-size: 4.5rem;
+    color: #C58940;
+}
+
